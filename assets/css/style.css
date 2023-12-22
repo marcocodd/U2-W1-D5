@@ -162,7 +162,7 @@ main{
 
 .trendingDiv{
    
-    width: 420px;
+    width: 550px;
     margin: 10px;
     display: flex;
     flex-flow: column;
