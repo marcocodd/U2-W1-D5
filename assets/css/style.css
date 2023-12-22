@@ -1,0 +1,239 @@
+/* colori da usare giallo #ffc017 nero #191919 verde  #1a8917 */
+
+
+
+/* Fonts import */
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Spectral:wght@300;400;700&display=swap');
+
+/* 
+font-family: 'Spectral', serif;
+font-family: 'Roboto', sans-serif;
+*/
+  
+
+/* General styles */
+
+.iconsImg{
+    width: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+body{
+    font-family:'Spectral', serif;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+
+  
+/* header */
+
+header{
+    background-color: #ffc017;
+}
+
+
+/* Nav bar */
+
+#NavBar{
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    align-items: center;
+    border-bottom: 1px solid #191919;
+    position: fixed;
+    width: 100%;
+    background-color: #ffc017;
+    z-index: 1;
+
+}
+
+#Ul_div{
+    display: flex;
+    width: 390px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+
+#Ul_div ul li {
+    margin: 5px;
+    display: inline;
+}
+
+#navButton{
+    background-color:#191919;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+  /* Elements under Nav Bar */
+
+
+#UnderNavDiv{
+    display: flex;
+    border-bottom: 1px solid black;
+    height: 455px;
+    justify-content: space-evenly;
+}
+
+#leftDiv{
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+#leftDiv h2{
+    font-size: 106px;
+    letter-spacing: -0.05em;
+    line-height: 95px;
+    margin-bottom: 25px;}
+
+#leftDiv h3{
+    font-size: 24px;
+    line-height: 24px;
+    font-family: 'sohne', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+
+   
+#leftDiv button{
+    background-color: #191919;
+    color: white;
+    padding: 11px 60px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+}
+
+
+
+
+  /* Main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+#firstDivMain{
+    margin-top: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#trending{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 265px;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+#trendingWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trendingDiv{
+   
+    width: 420px;
+    margin: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.trendingDiv h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.trendingDiv h2{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px
+}
+
+.trendingDiv h4 span{
+    font-size: 1.5rem;
+    opacity: 0.2;
+    font-weight: bold;
+    
+}
+
+/* Aticles Section */
+
+.articleImg{
+width: 200px;
+height: 134px;
+}
+
+#secondWrapDiv{
+    width: 1000px;
+}
+
+p{
+    color: #6B6B6B;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+h4{
+    font-size: 1.1em;
+  
+}
+
+.articlesDiv{
+    display: flex;
+    /* flex-direction: column; */
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+.greyDiv{
+    background-color: lightgray;
+    border-radius: 30px;
+    width: min-content;
+    padding: 8px;
+    display: inline-block;
+}
+  /* Aside */
+
+
+
+
+
+
+  /* Footer */
